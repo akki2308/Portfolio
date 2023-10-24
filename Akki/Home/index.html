@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akki</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="topnav" id="nav">
+        <div class="left-cont">
+            Akshit Chauhan
+        </div>
+        <div class="mukul">
+        <a href="index.html" >Home</a>
+        <a href="About_me/index.html" target="_blank">About Me</a>
+        <a href="skills/index.html" target="_blank">Skills</a>
+        <a href="projects/index.html" target="_blank">Projects</a>
+        <a href="Contact_me/index.html" target="_blank">Contact Me</a>
+        <a href="#" class="icon" onclick="myfunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        </div>
+    </div>
+    <script>
+        function myfunction(){
+            var x=document.getElementById("nav");
+            if(x.className=="topnav"){
+                x.className += " responsive"
+            } else{
+                x.className="topnav";
+            }
+        }
+    </script>
+
+    
+        <section class="firstSection">
+            <div class="leftSection">Hi, My Name is <span class="purple">Akshit</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <div class="container">
+                    <img src="PngItem_1127587.png" alt="Home Image" id="elements">
+                </div>
+            </div>
+        </section>
+   
+
+        
+    
+    <main>
+        
+    <hr>
+        <section class="secondsection">
+            <div class="box1">
+                <a href="https://www.linkedin.com/feed/" target="_blank" id="linkedin"> <img src="linkedin-4-48.png" alt=""></a>
+            </div>
+                <div class="box2">
+                    <a href="https://github.com/" target="_blank"><img src="github-9-48.png" alt=""></a>
+                </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Designer', 'Video Editor', 'Coder','Web Developer'],
+          typeSpeed: 50,
+        });
+      </script>
+
+<footer>
+    <p>" Welcome to My Portfolio!"<br>
+        "Exploring the intersection of creativity and technology. <br>
+         Let's connect and create something amazing together."
+    <a href="mailto:hege@example.com">akshit0133.be21@chitkara.edu.in</a></p>
+  </footer>
+
+</body>
+</html>
